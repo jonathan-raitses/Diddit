@@ -1,0 +1,14 @@
+{
+  "name": "Diddit",
+  "version": "1.0.0",
+  "description": "A service which mimics reddit",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "hi"
+  },
+  "author": "Jonathan Raitses",
+  "license": "MIT"
+}
