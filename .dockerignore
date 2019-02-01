@@ -1,0 +1,5 @@
+#Modules
+node_modules/
+npm-debug.log
+#Generated Data
+database/data
