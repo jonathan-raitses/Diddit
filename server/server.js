@@ -1,4 +1,5 @@
 require('newrelic');
+const dbConnect = require("../database/mongodb/mongodbutil.js").connectToServer();
 const express = require("express");
 const port = 1337;
 const app = express();
