@@ -2,10 +2,8 @@
   "name": "Diddit",
   "version": "1.0.0",
   "description": "A service which mimics reddit",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "server/server.js",
+  "directories": {},
   "scripts": {
     "start": "node server/index.js",
     "build": "webpack -p",
@@ -21,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/jonathan-raitses/Diddit/issues"
   },
-  "homepage": "https://github.com/Themyscira19/Critics#readme",
+  "homepage": "https://github.com/jonathan-raitses/Diddit#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "babel": "^6.23.0",
@@ -34,6 +32,7 @@
     "react-redux": "^6.0.0",
     "redis": "^2.8.0",
     "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   }
