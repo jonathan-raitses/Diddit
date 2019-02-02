@@ -16,9 +16,9 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 9003
+EXPOSE 1337
 
-ENV db_name=SDC db_user=root newrelic=9d30938ffd5094aeee52cc82d1d9197c21b81b15 db_host=18.221.65.191 db_pass=hackPlease1
+# ENV db_name=SDC db_user=root newrelic=9d30938ffd5094aeee52cc82d1d9197c21b81b15 db_host=18.221.65.191 db_pass=hackPlease1
 
 
-CMD [ "npm", "run", "start" ]
+CMD [ "npm", "run", "dev" ]

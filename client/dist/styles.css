@@ -1,0 +1,38 @@
+body {
+    background-color: #DBE0E5;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#navigation {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    color: grey;
+    font-family: Arial;
+}
+
+.form-inline {
+    display:inline-block
+}
+
+.nav-image {
+    margin-right: 5px;
+}
+
+.search-input {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    outline: none;
+    margin-right: 3px;
+    align-content: center;
+    background-color:#F6F7F8;
+}
+
+.search-input:hover,:focus{
+  outline: none;
+  border: 1px solid cyan;
+  background-color:white;
+}

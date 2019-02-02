@@ -1,10 +1,9 @@
 import { combineReducers } from 'redux';
-//import currentVideo from './currentVideo.js';
+import threadsReducer from './threadsReducer.js';
 
 
 var rootReducer = combineReducers({
-//   currentVideo,
-//   videoList
+    threadsReducer
 });
 
 export default rootReducer;
